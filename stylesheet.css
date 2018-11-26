@@ -1,0 +1,75 @@
+html, body{
+	width: cover;
+	height: cover%;
+	font-size: 20px
+}
+
+html { 
+  background: url(rome.jpg) no-repeat center fixed; 
+  background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0x;
+    padding: 0px;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+    border-right:1px solid white;
+}
+
+li:last-child {
+    border-right: 30px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: none;
+    padding: 14px;
+    text-decoration: none;
+
+}
+
+li a:hover:not(.active) {
+    background-color: green;
+}
+
+.active {
+    background-color: green;
+}
+
+.navpage{
+	font-family: georgia;
+    text-align: center;
+	font-size: 33px;
+	transition: 300ms;
+	font-weight:none;
+}
+
+.box {
+    background-color: gold;
+    margin: 20px;
+    padding: 20px;
+    font-family: monospace;
+    color: black;
+}
+
+.heading {
+    font-family: "roman" "sd";
+    font-weight: 100;
+    text-align: center;
+}
+
+div {
+    padding-right: 10px;
+    padding-left: 10px;
+}
